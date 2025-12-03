@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Proof of Insurance - Architecture Diagram</title>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <h1>Self-Service Proof of Insurance - Architecture (Containers)</h1>
+  <div class="mermaid">
+flowchart LR
+    %% Minimal, validated Mermaid flowchart to avoid syntax errors
+    Customer((Customer))
+    Portal[Customer Portal]
+    ProofService[Proof Of Insurance Service]
+    PolicySystem[(Policy System)]
+    DocGen[Document Generation]
+    EmailService[Email]
+    Audit[(Audit Log)]
+
+    Customer --> Portal
+    Portal --> ProofService
+    ProofService --> PolicySystem
+    ProofService --> DocGen
+    ProofService --> EmailService
+    ProofService --> Audit
+  </div>
+</body>
+</html>
