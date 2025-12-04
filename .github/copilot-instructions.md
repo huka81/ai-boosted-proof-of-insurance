@@ -271,6 +271,8 @@ flowchart TD
     %% You can add notes with two "%" signs in a row!
 ```
 
+DONT USE any special characters like brackets in connections.
+
 ---
 
 These rules apply to all diagram generation and documentation creation in this repository.
