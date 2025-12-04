@@ -17,8 +17,7 @@ We want to design a small, self-service capability:
 This demo shows how we move **from words to structure** using an LLM:
 - Socratic clarification of the requirement,
 - generation of diagrams,
-- creation of a PRD,
-- creation of `agents.md` for AI developer agents.
+- creation of a PRD.
 
 ## Initial feature description (intentionally incomplete)
 
@@ -28,5 +27,4 @@ This demo shows how we move **from words to structure** using an LLM:
 The goal of the session is to refine this description and turn it into:
 - a sequence diagram,
 - an architecture (C4 Container) view,
-- a Product Requirements Document (PRD),
-- an `agents.md` specification.
+- a Product Requirements Document (PRD)
