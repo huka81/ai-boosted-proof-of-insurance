@@ -25,6 +25,6 @@ This demo shows how we move **from words to structure** using an LLM:
 > They log in, choose a policy, and receive a PDF by email or download.”
 
 The goal of the session is to refine this description and turn it into:
+- a Product Requirements Document (PRD)
 - a sequence diagram,
 - an architecture (C4 Container) view,
-- a Product Requirements Document (PRD)
